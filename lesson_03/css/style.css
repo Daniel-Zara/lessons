@@ -1,0 +1,35 @@
+/* Сброс стилей */
+@import url(reset.css);
+
+h1, .title {
+	color: blueviolet;
+}
+#someitem {
+	color: olive;
+}
+.article {
+	text-decoration-line: underline;
+	color: blue;
+}
+.text1 {
+	color: green;
+}
+div {
+	color: red;
+}
+div.text2 {
+	color: salmon;
+}
+#article106 {
+	color: rgb(255, 0, 200);
+}
+.list {
+	color: lightcoral;
+}
+.list .item1, .item3, .item5, .item7, .item9{
+	color:rgb(185, 114, 20);
+}
+.list .item11, .item13, .item15, .item16, .item18{
+	font-weight:bolder;
+	color: sienna;
+}
