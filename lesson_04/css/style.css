@@ -1,0 +1,125 @@
+/* Подключение шрифтов */
+/* DM Sans */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap');
+/* Work Sans */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600,italic,600italic&display=swap");
+/* Roboto */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+/* Локальное подключение шрифтов */
+@import url("fonts.css");
+/* Сброс стилей */
+@import url("reset.css");
+
+img {
+	max-width: 500px;
+	max-height: 400px;
+}
+
+/* header */
+.header {
+	font-family: "P22 Kilkenny Pro";
+	font-size:30px;
+}
+/* main */
+
+.text {
+	font-size: 20px;
+}
+.text__item {
+	text-shadow: -15px -10px 10px #833576, -10px -5px 10px rgb(40, 230, 122);
+}
+
+.text__item2 {
+	text-decoration: underline dotted red;
+}
+
+.text__item3 {
+	text-shadow: -5px -5px 10px #358379;
+	text-decoration: overline dotted brown;
+}
+
+.text__item4 {
+	text-shadow: 5px 5px 10px #556070;
+	text-decoration: underline greenyellow;
+	text-decoration-style: wavy;
+}
+
+.text__item5 {
+	text-shadow: 15px 15px 5px blueviolet;
+	text-transform: uppercase;
+}
+
+.text__item6 {
+	color: #833576;
+	text-decoration: underline double midnightblue;
+}
+.text2 {
+	font-family: "Work Sans", serif;
+}
+
+.text2__item {
+	color: #132238;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 50px;
+}
+
+.text2__item2 {
+	color: #556070;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.text3 {
+	font-family: "DM Sans";
+}
+
+.text3__item {
+	color: #1E1B39;
+	font-size: 88px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 95px;
+}
+
+.text3__item2 {
+	color: #474464;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 42px;
+}
+
+.text4 {
+	font-family: "Roboto";
+}
+
+.text4__item {
+	color: #091133;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 66px;
+	letter-spacing: 1px;
+}
+
+.text4__item2 {
+	color: #505F98;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+/* footer */
+.footer {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.text__end {
+	color: #358379;
+}

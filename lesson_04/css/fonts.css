@@ -1,0 +1,8 @@
+/* P22 Kilkenny Pro */
+@font-face{
+	font-family: "P22 Kilkenny Pro";
+   src: url("../fonts/p22_kilkenny_pro.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
