@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue&display=swap");
+@import url("reset.css");
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.header {
+	font-size: 50px;
+	text-align: center;
+	background-color: gray;
+	color: brown;
+}
+.section-1 {
+	font-family: "Manrope", sans-serif;
+	background: #141414;
+	padding-block-end: 140px;
+}
+.darktheme__background {
+	min-height: 860px;
+	background: url('../img/darkthemewebsite/AbstractDesign.png') center / 470px no-repeat, linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%), linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%), url('../img/darkthemewebsite/mainimages.png') 0 0 / cover no-repeat;
+}
+.darktheme__container {
+	max-width: 1096px;
+	margin: -64px auto 0;
+}
+.darktheme__text {
+	text-align: center;
+}
+.darktheme__title {
+	font-size: 58px;
+	font-weight: 700;
+	color: white;
+	padding-bottom: 14px;
+	line-height: 87px;
+}
+.darktheme__text p {
+	font-size: 18px;
+	font-weight: 400;
+	color: grey;
+	line-height: 27px;
+	margin-bottom: 50px;
+}
+.darktheme__button {
+	background-color: red;
+	border-radius: 8px;
+	padding-inline: 24px;
+	padding-block: 18px;
+	color: white;
+}
+.darktheme__button span  {
+	background: url(../img/darkthemewebsite/button.svg) left / 20px no-repeat;
+	padding-left: 30px;
+	min-height: 23px;
+	display: inline-block;
+	padding-top: 3px;
+}
+.section-2 {
+	font-family: "Epilogue", sans-serif;
+	background: #fdf0e9;
+	padding-block: 50px;
+}
+.template__container {
+	max-width: 1170px;
+	padding: 5px;
+	margin: 0 auto;
+}
+.template__features {
+	min-height: 527px;
+	display: block;
+	background: url(../img/landingpagetemplate/features.png) right / 500px no-repeat;
+}
+.template__header {
+	padding-top: 50px;
+	color: #EF6D58;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+.template__title {
+	max-width: 397px;
+	color: #391400;
+	font-size: 56px;
+	font-weight: 800;
+	line-height: 64px;
+	margin-block-end: 26px;
+	
+}
+.template__text {
+	max-width: 500px;
+	color: #391400;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	margin-block-end: 26px;
+}
+.template__items {
+	color: #391400A3;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+}
+.template__item {
+	background-image: url(../img/landingpagetemplate/check.svg);
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	padding-top: 4px;
+	min-height: 30px;
+	margin-bottom: 26px;
+}
+.footer {
+	font-size: 50px;
+	text-align: center;
+	background-color: gray;
+	color: brown;
+	padding-bottom: 5px;
+}
