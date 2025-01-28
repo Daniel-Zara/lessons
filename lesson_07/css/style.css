@@ -225,7 +225,7 @@
 .template__image img {
 	border-radius: 15px;
 }
-.template__container--second {
+.template__second-container {
 	max-width: 600px;
 	padding-inline: 15px;
 	margin-inline: auto;
