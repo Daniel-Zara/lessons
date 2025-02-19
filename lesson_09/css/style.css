@@ -69,12 +69,6 @@
 	color: #FFF;
 	background-color: #EF6D58;
 }
-[class*="__link"] {
-	color: #391400;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 32px;
-}
 [class*="--small"] {
 	font-size: 40px;
 	font-weight: 800;
