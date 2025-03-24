@@ -1,13 +1,13 @@
 @import url("reset.css");
 
-.nav-list__item {
+.nav-list {
 	color: blueviolet;
 }
 .subnav-list__item {
 	color: chocolate;
 }
-
-h1 {
+h1, 
+h2 {
 	color: brown;
 }
 div.nation {
@@ -39,4 +39,8 @@ div.nation {
 }
 .conclusion p {
 	color: darkcyan;
+}
+.landscape-geography h3,
+.landscape-geography p  {
+	color: rgb(255, 0, 0) !important;
 }
