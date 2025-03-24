@@ -1,0 +1,42 @@
+@import url("reset.css");
+
+.nav-list__item {
+	color: blueviolet;
+}
+.subnav-list__item {
+	color: chocolate;
+}
+
+h1 {
+	color: brown;
+}
+div.nation {
+	color: aquamarine;
+}
+.about-ukraine__geography.geography {
+	color: blue;
+}
+.history .history__ancient {
+	color:darkgreen;
+}
+.tradition * {
+	color: yellow;
+}
+.transformation-political__title ~ p {
+	color: deepskyblue;
+}
+.political__current > p {
+	color: deeppink;
+}
+.agriculture-economy__title + p {
+	color: indianred;
+}
+#waterways {
+	color: rgb(92, 0, 0);
+}
+[class*="mod"] {
+	color: darkgoldenrod;
+}
+.conclusion p {
+	color: darkcyan;
+}
