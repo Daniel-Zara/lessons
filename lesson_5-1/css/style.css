@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Tektur:700&display=swap");
+@import url("fonts.css");
+@import url("reset.css");
+
+.business {
+	font-family: "Circular Std", sans-serif;
+	background: #231F8B;
+	padding-block: 50px;
+}
+.business__container {
+	max-width: 1080px;
+	padding-inline: 15px;
+	margin-inline: auto;
+}
+.advantages > h6 {
+	color: #5A54F2;
+	margin-block-end: 10px;
+}
+.advantages__title, 
+.advantages__text {
+	color: white;
+}
+.advantages__title {
+	font-size: 36px;
+	font-weight: 700;
+	margin-block-end: 10px;
+}
+.advantages__text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+	margin-block-end: 70px;
+}
+li {
+	display: inline-block;
+	max-width: 25%;
+	width: 100%;
+	vertical-align: top;
+}
+.advantages__cards {
+	font-size: 0;
+}
+.advantages__card {
+	background-color: #fff;
+	padding: 35px 40px;
+	margin-inline-end: 43px;
+}
+.margin-zero {
+	margin-inline-end: 0px;
+}
+.bottom-mod-card {
+	padding-top: 48px;
+}
+.mod-card {
+	background: #5A54F2;
+}
+.mod-card * {
+	color: #fff;
+}
+.content-advantages__image {
+	margin-block-end: 20px;
+}
+.content-advantages__title{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	
+	margin-block-end: 20px;
+}
+.content-advantages__line {
+	width: 50px;
+	height: 2px;
+	background-color: #E74040;
+
+	margin-block-end: 20px;
+}
+div.white-line {
+	background-color: #fff;
+}
+.content-advantages__text {
+	color: #737373;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+}
+.header,
+.footer {
+	font-family: "Tektur", sans-serif;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+	background-color: brown;
+	padding-block: 50px;
+}
