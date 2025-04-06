@@ -32,11 +32,15 @@
 	letter-spacing: 0.2px;
 	margin-block-end: 70px;
 }
+ul {
+	margin: 0px -20px;
+}
 li {
 	display: inline-block;
 	max-width: 25%;
 	width: 100%;
 	vertical-align: top;
+	padding: 0px 20px;
 }
 .advantages__cards {
 	font-size: 0;
@@ -44,10 +48,6 @@ li {
 .advantages__card {
 	background-color: #fff;
 	padding: 35px 40px;
-	margin-inline-end: 43px;
-}
-.margin-zero {
-	margin-inline-end: 0px;
 }
 .bottom-mod-card {
 	padding-top: 48px;
