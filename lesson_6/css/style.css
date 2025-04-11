@@ -1,0 +1,176 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
+.header, .footer {
+	padding-block: 50px;
+	text-align: center;
+	font-size: 50px;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden; 
+}
+/* ECOBAZAR */
+.ecobazar {
+	font-family: "Poppins", sans-serif;
+	color: #808080;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.ecobazar__container {
+	max-width: 678px;
+	margin-inline: auto;
+	padding-inline: 15px;
+}
+.ecobazar__text {
+	margin-block-end: 50px;
+}
+.ecobazar__text p, .ecobazar__items {
+	margin-block-end: 20px;
+}
+.ecobazar__item {
+	background: url("../img/ecobazar/check.png") 0 0 / 20px no-repeat;
+	padding-inline-start: 28px;
+	margin-block-end: 14px;
+	min-height: 20px;
+}
+.ecobazar__item--margin-zero {
+	margin-block-end: 0px;
+}
+p.ecobazar__paragraph {
+	margin-block-end: 0px;
+}
+/* HYDRA */
+.hydra {
+	font-family: "Montserrat", sans-serif;
+	background: #302C42;
+	color: #FFF;
+	padding-block: 100px;
+}
+.hydra__container {
+	max-width: 1302px;
+	margin-inline: auto;
+	padding-inline: 15px;
+}
+.contact-hydra > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+.contact-hydra {
+	padding: 50px 80px 50px 39px;
+	border-radius: 90px;
+	background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+	box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+	font-size: 0;
+	margin-block-end: 95px;
+}
+.contact-hydra h4 {
+	font-size: 24px;
+	font-weight: 700;
+	margin-block-end: 10px;
+}
+.contact-hydra p {
+	font-size: 14px;
+}
+.contact-hydra__location {
+	background: url("../img/hydra/location-Icon.svg") 0 0 / 70px no-repeat;
+	min-height: 70px;
+	padding-inline-start: 70px;
+	margin-inline-end: 42px;
+	padding-block-start: 10px;
+}
+.contact-hydra__phone-number {
+	background: url("../img/hydra/phone-call.svg") 0 0 / 59px no-repeat;
+	min-height: 59px;
+	padding-inline-start: 88px;
+	margin-inline-end: 64px;
+	padding-block-start: 5px;
+}
+.contact-hydra__email {
+	background: url("../img/hydra/mail.svg") 0 0 / 65px no-repeat;
+	min-height: 65px;
+	padding-inline-start: 88px;
+	padding-block-start: 5px;
+}
+.contact-hydra__vector {
+	margin-inline-end: 50px;
+	width: 1px;
+	height: 116px;
+	background: rgba(192, 183, 232, 0.33);
+}
+.introduction-hydra > * {
+	display: inline-block;
+}
+.introduction-hydra {
+	font-size: 0;
+	margin-block-end: 100px;
+}
+.introduction-hydra__header {
+	text-transform: uppercase;
+	margin-inline-end: 82px;
+}
+.introduction-hydra__title {
+	font-size: 36px;
+	font-weight: 700;
+}
+.introduction-hydra__subtitle {
+	font-size: 36px;
+	font-weight: 300;
+	padding-inline-end: 20px;
+	margin-block-start: -15px;
+}
+.introduction-hydra__image {
+	margin-block-start: -10px;
+	padding-inline-start: 30px;
+}
+.introduction-hydra__text {
+	max-width: 652px;
+	width: 100%;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.about-hydra__image {
+	margin-inline-end: 100px;
+}
+.about-hydra__image img {
+	border-radius: 240px 100px ;
+}
+.about-hydra > * {
+	display: inline-block;
+}
+.about-hydra {
+	font-size: 0;
+	background: url("../img/hydra/Vector7.svg") 0 40px / contain no-repeat, url("../img/hydra/Vector8.svg") 0 310px / contain no-repeat;
+}
+.about-hydra__header {
+	text-transform: uppercase;
+	font-size: 36px;
+}
+.about-hydra__title {
+	font-weight: 700;
+	margin-block-end: 5px;
+}
+.about-hydra__subtitle {
+	font-weight: 300;
+	margin-block-end: 42px;
+}
+.about-hydra__text {
+	max-width: 630px;
+	width: 100%;
+	vertical-align: middle;
+}
+.about-hydra__text p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-block-end: 28px;
+}
+.about-hydra__btn {
+	text-align: center;
+	color: #343045;
+	text-transform: uppercase;
+	padding: 17px 47px 16px 39px;
+	font-size: 12px;
+	font-weight: 700;
+	border-radius: 40px;
+	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
