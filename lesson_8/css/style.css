@@ -1,0 +1,47 @@
+@import url("reset.css");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.header, .footer {
+	padding-block: 50px;
+	text-align: center;
+	font-size: 50px;
+}
+.rebel {
+	font-size: 35px;
+	text-align: center;
+	font-weight: 700;
+}
+.rebel__container {
+	max-width: 1400px;
+	padding-inline: 15px;
+	margin-inline: auto;
+}
+.content {
+	border: 5px solid black;
+	margin-block-end: 5px;
+}
+.content picture img, .content img:not(:last-child) {
+	margin-block-end: 50px;
+}
+.content__logo {
+	width: 357px;
+	height: 82px;
+	background: gray;
+}
+.icon {
+	border: 5px solid black;
+	margin-block-end: 5px;
+}
+.icon img:not(:last-child) {
+	margin-inline-end: 50px;
+}
+.icon__black {
+	padding-block: 10px;
+}
+.icon__white {
+	padding-block: 10px;
+	background: gray;
+}
