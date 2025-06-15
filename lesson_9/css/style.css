@@ -7,6 +7,14 @@
   overflow: hidden;
 }
 
+.benefits__container h1 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 1.2;
+
+  margin-block-end: 40px;
+}
+
 .header,
 .footer {
   padding-block: 100px;
