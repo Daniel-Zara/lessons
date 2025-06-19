@@ -3,7 +3,8 @@
 *::after {
 	padding: 0;
 	margin: 0;
-	border: 0;
+	border: none;
+
 	box-sizing: border-box;
 }
 *::before,
@@ -11,19 +12,19 @@
 	display: inline-block;
 }
 a {
-	display: inline-block;
 	text-decoration: none;
+	display: inline-block;
 	color: inherit;
 }
-ul li {
+li {
 	list-style: none;
 }
 img {
-	vertical-align: top;
+	vertical-align: middle;
+	max-width: 100%;
 }
 html,
 body {
-	block-size: 100%;
 	line-height: 1;
 	height: 100%;
 }
