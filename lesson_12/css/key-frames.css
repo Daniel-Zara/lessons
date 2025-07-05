@@ -1,0 +1,17 @@
+@keyframes rotate-wheels {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(1200deg);
+	}
+}
+
+@keyframes car-go {
+	0% {
+		transform: translateX(0px);
+	 }
+	 100% {
+		transform: translateX(2000px);
+	 }
+}

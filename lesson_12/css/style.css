@@ -1,0 +1,327 @@
+@import url("reset.css");
+@import url("key-frames.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: dimgrey;
+}
+
+.header,
+.footer {
+	font-size: 50px;
+	text-align: center;
+	padding-block: 100px;
+}
+
+.container {
+	max-width: 1930px;
+	padding-inline: 15px;
+	margin-inline: auto;
+	perspective: 500px;
+}
+
+.car {
+	position: relative;
+
+	margin-block-start: 50px;
+	margin-inline: auto;
+	transform: rotate3d(1, 0, 0, -5deg);
+	width: 1000px;
+	height: 250px;
+	background: linear-gradient(180deg,rgb(185, 179, 179) 50%,rgb(170, 24, 24) 50%);
+	box-shadow: 0px 0px 10px 5px black;
+	border-radius: 50px;
+	right: 700px;
+	top: 270px;
+	transition: all 7s;
+}
+
+.road {
+	position: relative;
+	min-height: 600px;
+	width: 3000px;
+	background: linear-gradient(to right, hsl(0deg 0% 100%) 100px, transparent 0px) center / 300px 15px repeat-x, hsl(0deg 0% 33%);
+	
+	right: 100px;
+}
+
+.car {
+	animation-name: car-go;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+.wheels {
+	font-size: 0;
+	position: absolute;
+
+	top: 200px;
+	left: 250px;
+
+	z-index: 50;
+	
+}
+
+.wheel {
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+
+	background-color: rgb(75, 52, 52);
+	border-radius: 50%;
+
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+	animation-name: rotate-wheels;
+	animation-iteration-count: infinite;
+	box-shadow: 0px 0px 4px 0px black;
+}
+
+.wheel::after {
+	content: "";
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+
+	top: 50%;
+	left: 50%;
+	background-color: gray;
+	border: 15px dashed dimgray;
+	border-radius: 50%;
+
+	transform: translate(-50%, -50%);
+}
+
+.wheel:hover {
+	transform: rotate(360deg);
+}
+
+.wheels-arch {
+	font-size: 0;
+	position: absolute;
+
+	top: 190px;
+	left: 240px;
+}
+
+.wheel-arch {
+	display: inline-block;
+
+	width: 120px;
+	height: 60px;
+
+	background-color: rgb(0, 0, 0);
+	border-radius: 50px 50px 0 0;
+}
+
+.wheel:not(:last-child) {
+	margin-inline-end: 450px;
+}
+
+.wheel-arch:not(:last-child) {
+	margin-inline-end: 430px;
+}
+
+.doors {
+	font-size: 0;
+	position: absolute;
+	perspective: 500px;
+	top: 30px;
+	left: 100px;
+}
+
+.door {
+	display: inline-block;
+	width: 90px;
+	height: 220px;
+	position: relative;
+
+	background: linear-gradient(180deg,rgb(185, 179, 179) 95px,rgb(170, 24, 24) 95px);
+	border: 1px solid black;
+	box-shadow: 0px 0px 4px 0px black;
+	border-radius: 10px 10px 0 0;
+
+	transform-origin: right;
+	transition: all 0.5s;
+	
+}
+
+.door:hover {
+	transform: rotateY(30deg);
+}
+
+.door:first-child:hover {
+	transform: rotateY(80deg);
+}
+
+.door:not(:last-child) {
+	margin-inline-end: 450px;
+}
+
+.door__window {
+	display: inline-block;
+	position: absolute;
+	width: 70px;
+	height: 80px;
+	background-color: aqua;
+	border-radius: 10px;
+	border: 1px solid black;
+
+	left: 9px;
+	top: 9px;
+}
+
+.door-window:not(:last-child) {
+	margin-inline-end: 470px;
+}
+
+.windows {
+	font-size: 0;
+	position: relative;
+
+	left: 205px;
+	top: 40px;
+}
+
+.window {
+	display: inline-block;
+	position: relative;
+
+	width: 100px;
+	height: 80px;
+
+	border-radius: 10px;
+	border: 1px solid black;
+	background-color: aqua;
+}
+
+.window img {
+	position: absolute;
+	
+	height: 70px;
+
+	left: 10px;
+	top: 8px;
+}
+
+.window {
+	margin-inline-end: 5px;
+}
+
+.window:nth-child(4) {
+	margin-inline-end: 120px;
+}
+
+.window-front {
+	width: 50px;
+	height: 80px;
+
+	position: relative;
+
+	background-color: aqua;
+
+	left: 950px;
+	top: -40px;
+
+	border-block: 1px solid black;
+	border-left: 1px solid black;
+	border-radius: 10px 4px 0px 10px;
+}
+
+.image img{
+	width: 50px;
+	height: 80px;
+
+	border-radius: 9px 4px 0px 9px;
+}
+
+.window-rear {
+	position: relative;
+
+	width: 85px;
+	height: 80px;
+
+	background-color: aqua;
+
+	bottom: 120px;
+
+	border-block: 1px solid black;
+	border-right: 1px solid black;
+	border-radius: 4px 10px 10px 0;
+}
+
+.bumpers {
+	font-size: 0;
+	position: relative;
+	
+	right: 10px;
+	bottom: 40px;
+}
+
+.bumper {
+	display: inline-block;
+
+	width: 30px;
+	height: 20px;
+	background-color: white;
+
+	border: 1px solid black;
+	border-radius: 0 10px 10px 0;
+}
+
+
+.bumper:last-child {
+	position: relative;
+	left: 960px;
+}
+
+.bumper:first-child {
+	transform: rotate(-180deg);
+}
+
+.headlight {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	background: linear-gradient(90deg,rgba(170, 24, 24, 1) 90%, rgba(235, 221, 221, 1) 90%);
+
+	bottom: 90px;
+	left: 990px;
+
+	border: 1px solid black;
+	border-radius: 0 6px 6px 0;
+}
+
+.headlight:hover{
+	background: linear-gradient(90deg,rgba(170, 24, 24, 1) 90%, rgba(224, 197, 43, 1) 90%);
+	box-shadow: 200px 30px 100px 100px yellow;
+}
+
+.rear-light {
+	width: 20px;
+	height: 30px;
+
+	position: relative;
+
+	bottom: 120px;
+	right: 10px;
+	background: linear-gradient(90deg,rgba(235, 221, 221, 1) 10%, rgba(170, 24, 24, 1) 10%);
+
+	border: 1px solid black;
+}
+
+.rear-light:hover {
+	background: linear-gradient(90deg,rgba(255, 0, 0, 1) 10%, rgba(170, 24, 24, 1) 10%);
+	box-shadow: -200px 30px 100px 100px red;
+}
