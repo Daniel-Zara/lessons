@@ -1,0 +1,207 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper > main {
+	flex-grow: 1;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+.header,
+.footer {
+	background-color: brown;
+	padding-block: 50px;
+	font-size: 50px;
+	text-align: center;
+}
+
+[class*="__container"] {
+	max-width: 1230px;
+	padding-inline: 15px;
+	margin-inline: auto;
+}
+
+.team {
+	background-color: #412672;
+	padding-block: 60px 100px;
+}
+
+.team__block {
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
+
+.team__title {
+	display: flex;
+	flex-direction: column;
+	
+	font-size: 38px;
+	color: #FFFFFF;
+	line-height: 1.2;
+}
+
+.team__experts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 19px;
+}
+
+.expert {
+	display: flex;
+	flex-basis: 387px;
+}
+
+.expert__card {
+	background-color: #FFFFFF;
+	padding: 20px;
+	
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+	transition: all 0.5s;
+}
+
+.expert__card:hover {
+	background-color: #FFBE48;
+}
+
+.expert__name {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.expert__achievements {
+	flex-grow: 1;
+	color: #4F4F4F;
+	font-size: 15px;
+	line-height: 1.26;
+}
+
+.expert__link {
+	font-size: 15px;
+	line-height: 1.26;
+	align-self: flex-start;
+	color: #FE3F3F;
+}
+
+.expert__link:hover {
+	text-decoration: underline;
+}
+
+.main-offer {
+	padding-block: 55px 72px;
+}
+
+.main-offer__block {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 90px;
+	row-gap: 30px;
+}
+
+.info {
+	max-width: 518px;
+	width: 100%;
+	
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.info__title {
+	color: #412672;
+	font-size: 34px;
+}
+
+.info__text {
+	color: #412672;
+	font-size: 22px;
+}
+
+.info__items {
+	font-size: 20px;
+	color: #4F4F4F;
+
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.info__item {
+	display: flex;
+	align-items: center;
+	gap: 13px;
+}
+
+.info__item::before {
+	content: "";
+	align-self: flex-start;
+	flex-shrink: 0;
+	width: 29px;
+	height: 29px;
+	background: url("../img/check.svg") 0 0 / 100% no-repeat;
+}
+
+.main-offer__image {
+	max-width: 764px;	
+	margin-right: -172px;
+}
+
+.achievements {
+	background-color: #412672;
+	color: #FFF;
+	padding-block: 70px;
+}
+
+.achievements__block {
+	text-align: center;
+}
+.achievements__title {
+	font-size: 24px;
+	margin-block-end: 30px;
+}
+.achievements__items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.item-achievements {
+	display: flex;
+}
+
+.item-achievements__img {
+	margin-inline-end: 9px;
+}
+
+.item-achievements__info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 6px;
+}
+
+.item-achievements__title {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.item-achievements__text {
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+}
