@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/favicon.ico" sizes="32x32" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<title>HW14</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			HW14
+		</header>
+		<main class="page">
+			<div class="checkout">
+				<div class="checkout__container">
+					<div class="checkout__body">
+						<form action="#" method="GET" enctype="multipart/form-data">
+							<div class="form">
+								<div class="form__billing">
+									<h2 class="form__title">Billing Information</h2>
+									<div class="form__line form__line--280-size">
+										<div>
+											<label for="first-name">First name</label>
+											<input required placeholder="Your first name" type="text" name="your-first-name" id="first-name">
+										</div>
+										<div>
+											<label for="last-name">Last name</label>
+											<input required placeholder="Your last name" type="text" name="your-last-name" id="last-name">
+										</div>
+										<div>
+											<label for="company-name">Company name <span class="optional">(optional)</span></label>
+											<input placeholder="Company name" type="text" name="company-name" id="company-name">
+										</div>
+									</div>
+									<div class="form__line">
+										<label for="street-address">Street Address</label>
+										<input required placeholder="Your street address" type="text" name="street-address" id="street-address" >
+									</div>
+									<div class="form__line form__line--280-size">
+										<div>
+											<label for="country">Country / Region</label>
+											<select name="country" id="country" required>
+												<option value disabled selected hidden>Select</option>
+												<option value="1">Text 1</option>
+												<option value="2">Text 2</option>
+												<option value="3">Text 3</option>
+											</select>
+										</div>
+										<div>
+											<label for="states">States</label>
+											<select name="states" id="states" required>
+												<option value disabled selected hidden>Selects</option>
+												<option value="1">Text 1</option>
+												<option value="2">Text 2</option>
+												<option value="3">Text 3</option>
+											</select>
+										</div>
+										<div>
+											<label for="zip-code">Zip Code</label>
+											<input required type="text" id="zip-code" placeholder="Zip Code">
+										</div>
+									</div>
+									<div class="form__line form__line--428-size form__line--margin">
+										<div>
+											<label for="email">Email</label>
+											<input required type="text" id="email" placeholder="Email Address">
+										</div>
+										<div>
+											<label for="phone-number">Phone</label>
+											<input required type="text" id="phone-number" placeholder="Phone number">
+										</div>
+									</div>
+									<div class="form__checkbox">
+										<input type="checkbox" id="checkbox" name="checkbox">
+										<label for="checkbox" class="form__label">Ship to a different address</label>
+									</div>
+									<div class="form__info">
+										<h2 class="form__title">Additional Info</h2>
+										<div class="form__textarea">
+											<label for="textarea">Order Notes (Optional)</label>
+											<textarea name="textarea" id="textarea" placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="form__order order">
+									<h3 class="order__title">Order Summery</h3>
+									<div class="order__items">
+										<div class="order__item">
+											<div>
+												<img src="img/green-capsicum.png" alt="green-capsicum">
+												<p>Green Capsicum</p>
+												<p>x5</p>
+											</div>
+											<div>
+												<span>$70.00</span>
+											</div>
+										</div>
+										<div class="order__item">
+											<div>
+												<img src="img/red-capsicum.png" alt="red-capsicum">
+												<p>Red Capsicum</p>
+												<p>x1</p>
+											</div>
+											<div>
+												<span>$14.00</span>
+											</div>
+										</div>
+									</div>
+									<div class="order__pay">
+										<div>
+											<p>Subtotal:</p>
+											<span>$84.00</span>
+										</div>
+										<div>
+											<p>Shipping:</p>
+											<span>Free</span>
+										</div>
+										<div>
+											<p>Total:</p>
+											<span>$84.00</span>
+										</div>
+									</div>
+									<div class="order__method">
+										<h3 class="order__title">Payment Method</h3>
+										<div class="order__radio">
+											<div>
+												<input checked type="radio" name="payment" value="form[]" id="cash">
+												<label class="order__label" for="cash">Cash on Delivery</label>
+											</div>
+											<div>
+												<input type="radio" name="payment" value="form[]" id="paypal">
+												<label class="order__label" for="paypal">Paypal</label>
+											</div>
+											<div>
+												<input type="radio" name="payment" value="form[]" id="amazon">
+												<label class="order__label" for="amazon">Amazon Pay</label>
+											</div>
+										</div>
+									</div>
+									<a class="order__button" href="#">Place Order</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			The End
+		</footer>
+	</div>
+</body>
+</html>

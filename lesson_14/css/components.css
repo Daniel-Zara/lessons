@@ -1,0 +1,62 @@
+h2 {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+input,
+select,
+textarea {
+	border: 1px solid #E6E6E6;
+	border-radius: 6px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid #00B207;
+	border-radius: 6px;
+	transition: all 0.4s;
+}
+
+input,
+select,
+textarea {
+	padding-inline: 16px;
+	padding-block: 14px;
+}
+
+textarea {
+	resize: vertical;
+}
+
+input::placeholder,
+textarea::placeholder,
+select {
+
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.3;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+	opacity: 0;
+	transition: all 0.4s;
+}
+
+span {
+	color: #1A1A1A;
+	font-weight: 500;
+}
+
+select {
+	color: #999;
+	flex-basis: 55px;
+}
