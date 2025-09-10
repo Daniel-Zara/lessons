@@ -313,6 +313,7 @@ body {
 }
 
 .post__link {
+	display: flex;
 	color: #00B207;
 	font-size: 16px;
 	font-weight: 600;
@@ -421,3 +422,4 @@ body {
 	}
 
 }
+
