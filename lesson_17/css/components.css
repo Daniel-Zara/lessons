@@ -1,0 +1,63 @@
+[class*="__wishlist"] {
+	width: 40px;
+	height: 40px;
+	background: url("../img/svg/heart.svg") center / 20px no-repeat;
+	background-color: white;
+	border: 1px solid rgba(242, 242, 242, 1);
+	border-radius: 50%;
+	transition: background 0.4s;
+	margin-block-end: 6px;
+}
+
+[class*="__wishlist"]:hover {
+	background-image: url("../img/svg/heart-hover.svg");
+	background-color: rgba(0, 179, 7, 1);
+	border: none;
+}
+
+[class*="__qview"] {
+	width: 40px;
+	height: 40px;
+	background: url("../img/svg/eye.svg") center / 20px no-repeat;
+	background-color: white;
+	border-radius: 50%;
+	transition: background 0.4s;
+}
+
+[class*="__qview"]:hover {
+	background-image: url("../img/svg/eye-hover.svg");
+	background-color: rgba(0, 179, 7, 1);
+}
+
+[class*="__bag"] {
+	width: 40px;
+	height: 40px;
+	background: url("../img/svg/bag.svg") center / 20px no-repeat;
+	background-color: rgba(242, 242, 242, 1);
+	align-self: center;
+	border-radius: 50%;
+	transition: background 0.4s;
+}
+
+.button {
+	padding: 14px 32px 14px 32px;
+	background-color: white;
+	border-radius: 43px;
+	color: rgba(0, 179, 7, 1);
+	border: 2px solid white;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.5;
+	transition: all 0.5s;
+}
+
+.button::after {
+	margin-left: 6px;
+	content: "";
+	background: url("../img/arrow.svg") center / contain no-repeat;
+	width: 15px;
+	height: 12px;
+	vertical-align: middle;
+
+	transition: all 0.5s;
+}
