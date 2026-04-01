@@ -1,0 +1,35 @@
+.link {
+	color: red;
+}
+
+.title {
+	color: blue;
+}
+
+#general_characteristics_of_the_country {
+	color: brown;
+}
+
+[class*="-title"] {
+	color: chocolate;
+}
+
+div.text {
+	color:darkblue;
+}
+
+.text p {
+	color:purple;
+}
+
+.item > a {
+	color: hotpink;
+}
+
+.items .item {
+	color: lawngreen;
+}
+
+h3 + ul {
+	color: lightcoral;
+}
