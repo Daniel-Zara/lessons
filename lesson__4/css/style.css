@@ -1,0 +1,71 @@
+@import url("reset.css");
+@import url("../fonts/fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=DM%20Sans:wght@400;700&display=swap');
+
+
+
+/* ----------------------------AGROLINK---------------------------------------- */
+.agrolink {
+	font-family: "DM Sans", "Montserrat", sans-serif;
+	font-size: 20px;
+	padding-block: 50px;
+}
+
+.agrolink__container {
+	max-width: 510px;
+	padding-inline: 15px;
+	margin-inline: auto;
+}
+
+.about-us__title {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.about-us__title span {
+	color: #1AAF5B;
+	font-weight: 700;
+}
+
+.about-us__text {
+	line-height: 1.4;
+	color:rgb(0, 0, 0, 0.6);
+}
+/* --------------------------------------------------------------------------------- */
+
+.ukraine {
+	font-family: "Montserrat", "DM Sans", sans-serif;
+	font-size: 20px;
+	padding-block-start: 50px;
+}
+
+.ukraine__container {
+	max-width: 970px;
+	padding-inline: 15px;
+	margin-inline: auto;
+}
+
+.article__title {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: brown;
+	text-decoration-thickness: 5px;
+	text-underline-offset: 10px;
+}
+
+.article__text {
+	text-shadow: 10px 15px 10px black, -10px -15px 10px black;
+	line-height: 1.2;
+}
+
+.article__text p {
+	margin-bottom: 10px;
+}
+
+p.article__zero-margin {
+	margin: 0;
+}
