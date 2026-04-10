@@ -1,0 +1,53 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+
+.furniro {
+	padding-block: 50px;
+	font-family: "Poppins", sans-serif;
+}
+
+.furniro__container {
+	max-width: 1470px;
+	padding-inline: 15px;
+	margin-inline: auto;
+}
+
+.new-collection {
+	margin-inline: auto;
+	max-width: 643px;
+	border-radius: 10px;
+	padding: 62px 56px 37px 41px;
+	background-color: #fff3e3;
+}
+
+.new-collection__content {
+	margin-block-end: 46px;
+}
+
+.new-collection__label {
+	font-weight: 600;
+	letter-spacing: 3px;
+	margin-block-end: 4px;
+}
+
+.new-collection__title {
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 1.3;
+	color: #B88E2F;
+	margin-block-end: 17px;
+}
+
+.new-collection__text {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+.new-collection__button {
+	padding: 25px 72px;
+	font-weight: 700;
+	background-color: #B88E2F;
+	color:white;
+}
