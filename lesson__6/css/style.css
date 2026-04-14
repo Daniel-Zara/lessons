@@ -1,0 +1,126 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;800&display=swap');
+
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.furniro {
+	padding-block: 50px;
+	font-family: "Poppins", sans-serif;
+}
+
+[class*="__container"] {
+	max-width: 1470px;
+	padding-inline: 15px;
+	margin-inline: auto;
+}
+
+.checkout {
+	padding-block: 61px 97px;
+	min-height: 316px;
+	background: url("../img/main.webp") center / cover no-repeat;
+	text-align: center;
+	
+}
+
+.checkout__title {
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.checkout__text {
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.checkout__symbol {
+	padding: 11px;
+	background: url("../img/dashicons_arrow-down-alt2.svg") center / contain no-repeat;
+}
+
+.checkout__small-weight {
+	font-weight: 300;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+.catalyst {
+	padding-block: 50px;
+	font-family: "Barlow", sans-serif;
+	background-color: rgba(3, 3, 3, 1);
+	color: white;
+}
+
+.career__main {
+	min-height: 342px;
+	text-align: center;
+	background: url("../img/designer.webp") center / cover no-repeat;
+	margin-bottom: 35px;
+}
+
+.career__card {
+	padding-block: 123px 85px;
+}
+
+.career__title {
+	font-size: 64px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 36px;
+}
+
+.career__btn {
+	text-transform: capitalize;
+	font-weight: 500;
+	padding: 18px 78.5px;
+	background-color: rgba(10, 132, 255, 1);
+	border-radius: 12px;
+}
+
+.career__description {
+	max-width: 834px;
+	margin-inline: auto;
+	padding: 32px;
+	border-radius: 12px;
+	background-color: rgba(26, 26, 26, 1);
+}
+
+.career__description > div {
+	margin-bottom: 24px;
+}
+
+.career__subtitle {
+	color: rgba(249, 239, 236, 1);
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 12px;
+}
+
+.career__item {
+	padding-left: 26px;
+	min-height: 24px;
+	background: url("../img/dot.svg") 0 4px / 16px no-repeat;
+	margin-block-end: 12px;
+}
+
+.career__text p {
+	margin-bottom: 30px;
+}
+
+li.career__item--zero-margin, p.career__zero-margin {
+	margin: 0;
+}
+
+.career__text, .career__list{
+	color: rgba(179, 179, 178, 1);
+	line-height: 1.5;
+}
+
+div.career__benefits {
+	margin-bottom: 0;
+}
