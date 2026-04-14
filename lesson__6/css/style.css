@@ -103,7 +103,7 @@
 
 .career__item {
 	padding-left: 26px;
-	min-height: 24px;
+	min-height: 16px;
 	background: url("../img/dot.svg") 0 4px / 16px no-repeat;
 	margin-block-end: 12px;
 }
