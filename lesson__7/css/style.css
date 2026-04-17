@@ -1,0 +1,187 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=DM%20Sans:wght@400;700&display=swap");
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.agrolink {
+	padding-block: 50px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+}
+
+.agrolink__container {
+  max-width: 504px;
+  padding-inline: 15px;
+  margin-inline: auto;
+}
+
+.nature__title {
+  font-size: 50px;
+  line-height: 1.3;
+  letter-spacing: -1.26px;
+  margin-block-end: 19px;
+}
+
+.nature__title::before {
+	display: block;
+	content: "";
+	width: 36%;
+	height: 4px;
+	background: linear-gradient(90.00deg, rgba(18.3, 255, 70.38, 1),rgba(0, 0, 0, 1) 94.964%);
+	margin-bottom: 17px;
+}
+
+.nature__title span {
+	color: #1AAF5B;
+	font-weight: 700;
+}
+
+.nature__text {
+  color: rgb(117, 117, 117);
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+}
+
+.nature__content {
+	margin-block-end: 58px;
+}
+
+.nature__btn:hover {
+  box-shadow: 0px 0px 5px 0px black;
+  background-color: rgb(24, 160, 83);
+}
+
+.nature__btn {
+  padding: 25px 40px 23px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  background-color: rgba(26, 175, 91, 1);
+  border-radius: 0px 18px 0px 0px;
+}
+
+.nature__button a::after {
+  content: "";
+  width: 20px;
+  height: 10px;
+  background: url("../img/arrow.svg") 0 0 / contain no-repeat;
+  margin-inline-start: 15px;
+
+  vertical-align: middle;
+}
+
+.game {
+}
+.game__container {
+	background-color: bisque;
+	max-width: 700px;
+	height: 500px;
+	margin-inline: auto;
+}
+.game__start {
+	width: 50px;
+	height: 50px;
+	background-color: green;
+}
+.game__line1 {
+	width: 150px;
+	height: 30px;
+	background-color: rgb(2, 165, 2);
+	margin-top: -40px;
+	margin-left: 50px;
+}
+.game__line2 {
+	width: 30px;
+	height: 80px;
+	background-color: rgb(2, 165, 2);
+	margin-top: 0px;
+	margin-left: 170px;
+}
+.game__line3 {
+	width: 130px;
+	height: 30px;
+	background-color: rgb(2, 165, 2);
+	margin-top: -30px;
+	margin-left: 40px;
+}
+.game__line4 {
+	width: 30px;
+	height: 120px;
+	background-color: rgb(2, 165, 2);
+	margin-top: 0px;
+	margin-left: 40px;
+}
+.game__line5 {
+	width: 250px;
+	height: 30px;
+	background-color: rgb(2, 165, 2);
+	margin-top: -30px;
+	margin-left: 70px;
+}
+.game__line6 {
+	width: 30px;
+	height: 200px;
+	background-color: rgb(2, 165, 2);
+	margin-top: -230px;
+	margin-left: 290px;
+}
+.game__line7 {
+	width: 300px;
+	height: 30px;
+	background-color: rgb(2, 165, 2);
+	margin-top: -200px;
+	margin-left: 320px;
+}
+.game__line8 {
+	width: 30px;
+	height: 400px;
+	background-color: rgb(2, 165, 2);
+	margin-top: 0px;
+	margin-left: 590px;
+}
+.game__line9 {
+	width: 80px;
+	height: 30px;
+	background-color: rgb(2, 165, 2);
+	margin-top: -30px;
+	margin-left: 510px;
+}
+.game__line10 {
+	width: 30px;
+	height: 350px;
+	background-color: rgb(2, 165, 2);
+	margin-top: -380px;
+	margin-left: 510px;
+}
+.game__line11 {
+	width: 170px;
+	height: 30px;
+	background-color: rgb(2, 165, 2);
+	margin-top: -350px;
+	margin-left: 340px;
+}
+.game__line12 {
+	width: 30px;
+	height: 360px;
+	background-color: rgb(2, 165, 2);
+	margin-top: 0px;
+	margin-left: 340px;
+}
+.game__finish {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	margin-left: 330px;
+	margin-top: 0px;
+}
+.hidden, .game__finish {
+	visibility: hidden;
+}
+
+.visible:hover + .visible, .visible:hover {
+	visibility: visible;
+}
+
