@@ -1,0 +1,244 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+[class*="__container"] {
+	max-width: 1230px;
+	padding-inline: 15px;
+	margin-inline: auto;
+}
+
+body {
+	background: rgba(22, 22, 22, 1);
+}
+
+.portfolio {
+	padding-block: 50px;
+	font-family: "Inter Display", sans-serif;
+	color: rgba(255, 255, 255, 1);
+}
+
+.blog-section {
+	padding-block-end: 140px;
+}
+
+.blog-section__header {
+	text-align: center;
+	margin-block-end: 60px;
+}
+
+.blog-section__label {
+	display: inline-block;
+	margin-inline: auto;
+	color: rgba(255, 255, 255, 0.4);
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-block-end: 12px;
+}
+
+.blog-section__label::before {
+	display: block;
+	content: "";
+	width: 60px;
+	height: 60px;
+	background: url("../img/blog.svg") center / contain no-repeat;
+	margin-block-end: 8px;
+
+	margin-inline: auto;
+}
+
+.blog-section__title {
+	font-size: 52px;
+	font-weight: 500;
+	margin-block-end: 12px;
+}
+
+.blog-section__body {
+	font-size: 0;
+}
+
+.blog-section__body > * {
+	display: inline-block;
+}
+
+.left-section {
+	max-width: 688px;
+	width: 100%;
+	padding: 32px;
+
+	border-radius: 20px;
+	background: rgba(30, 30, 31, 1);
+	font-size: 16px;
+}
+
+.left-section__image {
+	max-width: 624px;
+	margin-block-end: 32px;
+}
+
+.left-section__image img {
+	border-radius: 20px;
+}
+
+.left-section__header > * {
+	display: inline-block;
+	width: 50%;
+}
+
+.left-section__header{
+	font-size: 0;
+	margin-block-end: 28px;
+}
+
+.left-section__style {
+	text-transform: uppercase;
+	padding: 8px 16px;
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.05);
+	font-size: 14px;
+	letter-spacing: 0.56px;
+}
+
+.left-section__date {
+	color: rgba(255, 255, 255, 0.7);
+	text-align: right;
+	font-size: 16px;
+}
+
+.left-section__date::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: url("../img/vector.svg") 0 0 / 15px no-repeat;
+	vertical-align: middle;
+}
+
+.left-section__content {
+	margin-block-end: 24px;
+}
+
+.left-section__title {
+	font-size: 32px;
+	line-height: 1.5;
+	margin-block-end: 12px;
+}
+
+.left-section__content p {
+	color: rgba(255, 255, 255, 0.7);
+	line-height: 1.5;
+}
+
+.left-section__link::after {
+	content: "";
+	width: 24px;
+	height: 24px;
+	background: url("../img//Overlay+Shadow+OverlayBlur.svg") 0 0 / contain no-repeat;
+	vertical-align: middle;
+
+	margin-inline-start: 10px;
+	margin-top: -3px;
+}
+
+.right-section {
+	vertical-align: top;
+	margin-inline-start: 30px;
+	font-size: 16px;
+}
+.right-section__card {
+	max-width: 482px;
+	width: 100%;
+	padding: 32px;
+	border-radius: 20px;
+	background: rgba(30, 30, 31, 1);
+}
+
+.right-section__card:not(:last-child){
+	margin-block-end: 30px;
+}
+
+.right-section__label {
+	display: inline-block;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	padding: 8px 16px;
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.05);
+	margin-block-end: 12px;
+}
+
+.right-section__title {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.5;
+	margin-block-end: 12px;
+}
+
+.right-section__content p {
+	color: rgba(255, 255, 255, 0.7);
+	line-height: 1.5;
+}
+
+.faq-section__header {
+	text-align: center;
+}
+
+.faq-section__label {
+	display: inline-block;
+	color: rgba(255, 255, 255, 0.4);
+	font-weight: 500;
+	margin-block-end: 12px;
+}
+
+.faq-section__label::before {
+	display: block;
+	content: "";
+	width: 52px;
+	height: 60px;
+	background: url("../img/faq.svg") 0 0 / contain no-repeat;
+	margin-inline: auto;
+	margin-block-end: 12px;
+}
+
+.faq-section__title {
+	font-size: 52px;
+	font-weight: 500;
+	margin-block-end: 12px;
+}
+
+.faq-section__item {
+	width: 100%;
+	padding: 24px 32px;
+	border-radius: 16px;
+	background: rgba(30, 30, 31, 1);
+}
+
+.faq-section__body > * {
+	display: inline-block;
+}
+
+.faq-section__body {
+	font-size: 0;
+}
+
+.faq-section__body h3,
+.faq-section__body span {
+	width: 50%;
+}
+
+.faq-section__body h3 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.faq-section__body span {
+	text-align: right;
+}
+
+.faq-section__item:not(:last-child) {
+	margin-block-end: 24px;
+}
