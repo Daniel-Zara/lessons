@@ -1,0 +1,129 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap');
+
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+}
+
+[class*="__container"] {
+	max-width: 1470px;
+	padding-inline: 15px;
+	margin-inline: auto;
+}
+
+body {
+	background-color: rgba(3, 3, 3, 1);
+	color: white;
+}
+
+.menu > * {
+	display: inline-block;
+}
+
+.menu {
+	font-size: 0;
+	text-align: center;
+}
+.menu__item {
+	position: relative;
+	font-size: 16px;
+	padding: 30px 100px;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+
+.menu__item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.sub-menu {
+	visibility: hidden;
+	position: absolute;
+	top: 76px;
+	left: 30px;
+	font-size: 16px;
+}
+.sub-menu__item {
+	position: relative;
+	padding: 25px 50px;
+	border: 1px solid white;
+	color: white;
+}
+
+.menu__item:hover,
+.sub-menu__item:hover,
+.sub-sub-menu__item:hover {
+	background-color: white;
+	color: black;
+}
+
+.menu__item:hover .sub-menu {
+	visibility: visible;
+}
+
+.sub-menu__item:hover .sub-sub-menu {
+	visibility: visible;
+}
+
+.sub-sub-menu {
+	visibility: hidden;
+	position: absolute;
+	left: 167px;
+	top: 5px;
+}
+
+.sub-sub-menu__item {
+	padding: 5px 70px;
+	border: 1px solid white;
+	border-radius: 0px 20px 20px 0px;
+	color: white;
+}
+
+/* ------------------------------------------------------- */
+
+
+.catalyst {
+	font-family: "Barlow", sans-serif;
+	padding-block-start: 100px;
+}
+
+.catalyst__responsibilities {
+	max-width: 834px;
+	margin-inline: auto;
+	padding: 32px;
+	background-color: rgba(26, 26, 26, 1);
+	border-radius: 12px;
+}
+.catalyst__title {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.5;
+	text-transform: uppercase;
+	margin-block-end: 12px;
+}
+.catalyst__items {
+	color: rgba(179, 179, 178, 1);
+	line-height: 1.5;
+}
+.catalyst__item:not(:last-child) {
+	margin-block-end: 12px;
+}
+
+.catalyst__item {
+	position: relative;
+	margin-inline-start: 26px;
+}
+
+.catalyst__item::before {
+	position: absolute;
+	content: "";
+	width: 16px;
+	height: 16px;
+	background-image: url("../img/diamond-with-a-dot.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	top: 4px;
+	left: -26px;
+}
